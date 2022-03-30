@@ -19,7 +19,6 @@ export default function Connect() {
                     : accountData.address}
                 </div>
                 <div style={{ padding: 5}}>Connected to {accountData.connector.name} on {networkData.chain?.name}</div>
-                <div style={{ padding: 5}}>(Make sure you're connected to Mainnet in order to Mint and View your NFTs!)</div>
                 <button onClick={disconnect} style={{ padding: 5}}>Disconnect</button>
             </div>
         )
